@@ -1,7 +1,7 @@
 // Service worker: funciona sin conexión.
 // index.html se busca primero en la red (así ves siempre la última versión subida a GitHub)
 // y si no hay internet se usa la copia guardada.
-const CACHE = "elecciones-v1";
+const CACHE = "elecciones-v4";
 const FILES = ["./", "./index.html", "./manifest.json",
   "./icons/icon-192.png", "./icons/icon-512.png", "./icons/icon-maskable-512.png",
   "./icons/apple-touch-icon.png", "./icons/favicon-32.png"];
